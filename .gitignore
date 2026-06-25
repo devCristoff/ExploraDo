@@ -55,3 +55,21 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Test Results
+*.trx
+
+# App Settings and Secrets
+*/appsettings.json
+*/appsettings.development.json
+*/appsettings.production.json
+*/secrets.json
+
+# User-specific files
+*.csproj.user
+.vs/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
